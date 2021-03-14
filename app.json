@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "Kissan Smart",
+    "description": "Kissan Smart is one stop for all your Agriculture needs.",
+    "slug": "kissansmart",
+    "privacy": "public",
+    "sdkVersion": "40.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/kissansmart_logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.kissansmart",
+      "versionCode": 3,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "CAMERA",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "config": {
+        "googleMaps": {
+          "apiKey" : "asdfasdfadfdaf"
+        }
+      }      
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
